@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+struct NetworkManager {
+    
+    func getSession(endpoint: String) -> URLRequest? {
+        
+        let urlComponents = URLComponents(string: "\(baseURL)\(endpoint)")
+        
+        guard let url = urlComponents?.url else { return nil }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = HttpMethods.get.rawValue
+        
+        return request
+    }
+}
