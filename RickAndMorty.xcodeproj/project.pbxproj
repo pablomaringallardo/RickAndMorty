@@ -187,8 +187,8 @@
 		A31959512BE02CA900CCE131 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A31959522BE02CB800CCE131 /* HomeViewModel.swift */,
 				A31959542BE02CC200CCE131 /* HomeViewInteractor.swift */,
+				A31959522BE02CB800CCE131 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
