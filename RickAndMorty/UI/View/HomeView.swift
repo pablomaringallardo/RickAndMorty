@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct HomeView: View {
+    var viewModel = HomeViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            viewModel.filterCharacters(name: "", status: "alive", species: "", type: "", gender: "")
+        } label: {
+            Text("Boton")
+        }
+        
+        Text("\(viewModel.characters?.count ?? 0)")
     }
 }
 

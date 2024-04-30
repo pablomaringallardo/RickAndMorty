@@ -36,4 +36,19 @@ final class HomeViewModel {
             }
             .store(in: &suscriptors)
     }
+    
+    func filterCharacters(name: String?, status: String?, species: String?, type: String?, gender: String?) {
+        
+        interactor.filterCharacter(name: name, status: status, species: species, type: type, gender: gender)
+            .sink { completion in
+                switch completion {
+                case .finished:
+                    print("Success filter characters")
+                case .failure(let error):
+                    print("ERROR: Error al filtrar personajes \(error.localizedDescription)")
+                }
+            } receiveValue: { response in
+                self.characters = response.results
+            }
+            .store(in: &suscriptors)    }
 }

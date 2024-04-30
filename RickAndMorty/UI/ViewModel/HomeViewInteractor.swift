@@ -10,6 +10,7 @@ import Combine
 
 protocol HomeViewInteractorProtocol: AnyObject {
     func getAllCharacter() -> AnyPublisher<ResponseAllCharacter, Error>
+    func filterCharacter(name: String?, status: String?, species: String?, type: String?, gender: String?) -> AnyPublisher<ResponseAllCharacter, Error>
 }
 
 final class HomeViewInteractor: HomeViewInteractorProtocol {
@@ -20,6 +21,13 @@ final class HomeViewInteractor: HomeViewInteractorProtocol {
     func getAllCharacter() -> AnyPublisher<ResponseAllCharacter, any Error> {
         
         let endpoint = "/character"
+        
+        return networker.callServer(type: ResponseAllCharacter.self, request: networkManager.getSession(endpoint: endpoint)!)
+    }
+    
+    func filterCharacter(name: String?, status: String?, species: String?, type: String?, gender: String?) -> AnyPublisher<ResponseAllCharacter, Error> {
+        
+        let endpoint = "/character/?name=\(name ?? "")&status=\(status ?? "")&species=\(species ?? "")&type=\(type ?? "")&gender=\(gender ?? "")"
         
         return networker.callServer(type: ResponseAllCharacter.self, request: networkManager.getSession(endpoint: endpoint)!)
     }
