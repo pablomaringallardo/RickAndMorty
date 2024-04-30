@@ -20,6 +20,8 @@
 		A31959552BE02CC200CCE131 /* HomeViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31959542BE02CC200CCE131 /* HomeViewInteractor.swift */; };
 		A319595B2BE02CED00CCE131 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319595A2BE02CED00CCE131 /* Character.swift */; };
 		A319595D2BE02D3900CCE131 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319595C2BE02D3900CCE131 /* HomeView.swift */; };
+		A346C1C12BE14BC500446F3F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C02BE14BC500446F3F /* Location.swift */; };
+		A346C1C32BE14CC600446F3F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C22BE14CC600446F3F /* Episode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		A31959542BE02CC200CCE131 /* HomeViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInteractor.swift; sourceTree = "<group>"; };
 		A319595A2BE02CED00CCE131 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		A319595C2BE02D3900CCE131 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A346C1C02BE14BC500446F3F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A346C1C22BE14CC600446F3F /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				A319595A2BE02CED00CCE131 /* Character.swift */,
+				A346C1C02BE14BC500446F3F /* Location.swift */,
+				A346C1C22BE14CC600446F3F /* Episode.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -342,7 +348,9 @@
 				A319595B2BE02CED00CCE131 /* Character.swift in Sources */,
 				A31959502BE02C9E00CCE131 /* Networker.swift in Sources */,
 				A31959532BE02CB800CCE131 /* HomeViewModel.swift in Sources */,
+				A346C1C32BE14CC600446F3F /* Episode.swift in Sources */,
 				A319594E2BE02C9300CCE131 /* NetworkManager.swift in Sources */,
+				A346C1C12BE14BC500446F3F /* Location.swift in Sources */,
 				A31959552BE02CC200CCE131 /* HomeViewInteractor.swift in Sources */,
 				A319595D2BE02D3900CCE131 /* HomeView.swift in Sources */,
 				A319591D2BE02B6000CCE131 /* RickAndMortyApp.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ResponseAllCharacter: Codable {
+struct APIResponseCharacterModel: Codable {
     let results: [Character]
 }
 
