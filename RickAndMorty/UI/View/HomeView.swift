@@ -16,7 +16,9 @@ struct HomeView: View {
             Text("Boton")
         }
         
-        Text("\(viewModel.characters?.count ?? 0)")
+        Text(viewModel.characters?.count ?? 0)
+        
+        
     }
 }
 
