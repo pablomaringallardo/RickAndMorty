@@ -18,10 +18,21 @@
 		A31959502BE02C9E00CCE131 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319594F2BE02C9E00CCE131 /* Networker.swift */; };
 		A31959532BE02CB800CCE131 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31959522BE02CB800CCE131 /* HomeViewModel.swift */; };
 		A31959552BE02CC200CCE131 /* HomeViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31959542BE02CC200CCE131 /* HomeViewInteractor.swift */; };
-		A319595B2BE02CED00CCE131 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319595A2BE02CED00CCE131 /* Character.swift */; };
+		A319595B2BE02CED00CCE131 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319595A2BE02CED00CCE131 /* CharacterModel.swift */; };
 		A319595D2BE02D3900CCE131 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319595C2BE02D3900CCE131 /* HomeView.swift */; };
+		A335DDC62BFCA906004C6A1F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335DDC52BFCA906004C6A1F /* Color.swift */; };
+		A335DDC82BFCAA72004C6A1F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335DDC72BFCAA72004C6A1F /* Font.swift */; };
+		A335DDCA2BFCAF3D004C6A1F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A335DDC92BFCAF3D004C6A1F /* Nunito-Regular.ttf */; };
+		A335DDCC2BFCAF4F004C6A1F /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A335DDCB2BFCAF4F004C6A1F /* Nunito-Medium.ttf */; };
+		A335DDCF2BFCAF6F004C6A1F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A335DDCE2BFCAF6F004C6A1F /* Nunito-Bold.ttf */; };
+		A335DDD72BFCB315004C6A1F /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335DDD62BFCB315004C6A1F /* LaunchScreenView.swift */; };
+		A335DDD92BFCB834004C6A1F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335DDD82BFCB834004C6A1F /* SearchBar.swift */; };
+		A335DDDB2BFCBFC3004C6A1F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */; };
 		A346C1C12BE14BC500446F3F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C02BE14BC500446F3F /* Location.swift */; };
 		A346C1C32BE14CC600446F3F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C22BE14CC600446F3F /* Episode.swift */; };
+		A346C1C82BE161F300446F3F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C72BE161F300446F3F /* DetailView.swift */; };
+		A346C1CB2BE164B500446F3F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = A346C1CA2BE164B500446F3F /* CachedAsyncImage */; };
+		A371AB862C0DE17100C4935E /* LoadMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371AB852C0DE17100C4935E /* LoadMoreButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +67,21 @@
 		A319594F2BE02C9E00CCE131 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 		A31959522BE02CB800CCE131 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A31959542BE02CC200CCE131 /* HomeViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInteractor.swift; sourceTree = "<group>"; };
-		A319595A2BE02CED00CCE131 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A319595A2BE02CED00CCE131 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		A319595C2BE02D3900CCE131 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A335DDC52BFCA906004C6A1F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A335DDC72BFCAA72004C6A1F /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		A335DDC92BFCAF3D004C6A1F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		A335DDCB2BFCAF4F004C6A1F /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		A335DDCE2BFCAF6F004C6A1F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		A335DDD02BFCAFBF004C6A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A335DDD62BFCB315004C6A1F /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		A335DDD82BFCB834004C6A1F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		A346C1C02BE14BC500446F3F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		A346C1C22BE14CC600446F3F /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		A346C1C72BE161F300446F3F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A371AB852C0DE17100C4935E /* LoadMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A346C1CB2BE164B500446F3F /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +133,8 @@
 		A319591B2BE02B6000CCE131 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				A335DDD02BFCAFBF004C6A1F /* Info.plist */,
+				A335DDC42BFCA8F9004C6A1F /* Extension */,
 				A319594A2BE02C7A00CCE131 /* Global */,
 				A31959592BE02CDF00CCE131 /* Model */,
 				A31959492BE02C7100CCE131 /* Network */,
@@ -157,6 +182,9 @@
 		A31959472BE02B7300CCE131 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A335DDCE2BFCAF6F004C6A1F /* Nunito-Bold.ttf */,
+				A335DDCB2BFCAF4F004C6A1F /* Nunito-Medium.ttf */,
+				A335DDC92BFCAF3D004C6A1F /* Nunito-Regular.ttf */,
 				A31959202BE02B6100CCE131 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -165,8 +193,10 @@
 		A31959482BE02C6A00CCE131 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A31959562BE02CC700CCE131 /* View */,
-				A31959512BE02CA900CCE131 /* ViewModel */,
+				A335DDD32BFCB2CE004C6A1F /* LaunchScreen */,
+				A346C1C52BE15C3800446F3F /* Home */,
+				A346C1C62BE161E000446F3F /* Detail */,
+				A346C1C42BE15C2F00446F3F /* Components */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -208,11 +238,55 @@
 		A31959592BE02CDF00CCE131 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A319595A2BE02CED00CCE131 /* Character.swift */,
+				A319595A2BE02CED00CCE131 /* CharacterModel.swift */,
 				A346C1C02BE14BC500446F3F /* Location.swift */,
 				A346C1C22BE14CC600446F3F /* Episode.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A335DDC42BFCA8F9004C6A1F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A335DDC52BFCA906004C6A1F /* Color.swift */,
+				A335DDC72BFCAA72004C6A1F /* Font.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A335DDD32BFCB2CE004C6A1F /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A335DDD62BFCB315004C6A1F /* LaunchScreenView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		A346C1C42BE15C2F00446F3F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A335DDD82BFCB834004C6A1F /* SearchBar.swift */,
+				A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */,
+				A371AB852C0DE17100C4935E /* LoadMoreButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A346C1C52BE15C3800446F3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A31959562BE02CC700CCE131 /* View */,
+				A31959512BE02CA900CCE131 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A346C1C62BE161E000446F3F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A346C1C72BE161F300446F3F /* DetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +305,9 @@
 			dependencies = (
 			);
 			name = RickAndMorty;
+			packageProductDependencies = (
+				A346C1CA2BE164B500446F3F /* CachedAsyncImage */,
+			);
 			productName = RickAndMorty;
 			productReference = A31959192BE02B6000CCE131 /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -303,6 +380,9 @@
 				Base,
 			);
 			mainGroup = A31959102BE02B6000CCE131;
+			packageReferences = (
+				A346C1C92BE164B500446F3F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = A319591A2BE02B6000CCE131 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,6 +399,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A335DDCC2BFCAF4F004C6A1F /* Nunito-Medium.ttf in Resources */,
+				A335DDCF2BFCAF6F004C6A1F /* Nunito-Bold.ttf in Resources */,
+				A335DDCA2BFCAF3D004C6A1F /* Nunito-Regular.ttf in Resources */,
 				A31959242BE02B6100CCE131 /* Preview Assets.xcassets in Resources */,
 				A31959212BE02B6100CCE131 /* Assets.xcassets in Resources */,
 			);
@@ -345,15 +428,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A319595B2BE02CED00CCE131 /* Character.swift in Sources */,
+				A319595B2BE02CED00CCE131 /* CharacterModel.swift in Sources */,
 				A31959502BE02C9E00CCE131 /* Networker.swift in Sources */,
+				A335DDD92BFCB834004C6A1F /* SearchBar.swift in Sources */,
 				A31959532BE02CB800CCE131 /* HomeViewModel.swift in Sources */,
 				A346C1C32BE14CC600446F3F /* Episode.swift in Sources */,
 				A319594E2BE02C9300CCE131 /* NetworkManager.swift in Sources */,
+				A335DDDB2BFCBFC3004C6A1F /* CustomCell.swift in Sources */,
+				A335DDC62BFCA906004C6A1F /* Color.swift in Sources */,
+				A346C1C82BE161F300446F3F /* DetailView.swift in Sources */,
+				A335DDC82BFCAA72004C6A1F /* Font.swift in Sources */,
 				A346C1C12BE14BC500446F3F /* Location.swift in Sources */,
+				A335DDD72BFCB315004C6A1F /* LaunchScreenView.swift in Sources */,
 				A31959552BE02CC200CCE131 /* HomeViewInteractor.swift in Sources */,
 				A319595D2BE02D3900CCE131 /* HomeView.swift in Sources */,
 				A319591D2BE02B6000CCE131 /* RickAndMortyApp.swift in Sources */,
+				A371AB862C0DE17100C4935E /* LoadMoreButton.swift in Sources */,
 				A319594C2BE02C8400CCE131 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +611,7 @@
 				DEVELOPMENT_TEAM = JZ6GNTPXDT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -550,6 +641,7 @@
 				DEVELOPMENT_TEAM = JZ6GNTPXDT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -684,6 +776,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A346C1C92BE164B500446F3F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A346C1CA2BE164B500446F3F /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A346C1C92BE164B500446F3F /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A31959112BE02B6000CCE131 /* Project object */;
 }
