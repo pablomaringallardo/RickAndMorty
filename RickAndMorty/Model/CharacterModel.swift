@@ -8,10 +8,10 @@
 import Foundation
 
 struct APIResponseCharacterModel: Codable {
-    let results: [Character]
+    let results: [CharacterModel]
 }
 
-struct Character: Codable {
+struct CharacterModel: Codable, Identifiable {
     let id: Int
     let name: String
     let status: String
