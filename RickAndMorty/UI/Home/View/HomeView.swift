@@ -10,6 +10,8 @@ import SwiftUI
 struct HomeView: View {
     @State var viewModel = HomeViewModel()
     @State var textSearchBar: String = ""
+    @State var isPresented: Bool = false
+    @State var specieSelection: String = ""
     var body: some View {
         ZStack {
             Color.backgroundColor
@@ -19,7 +21,7 @@ struct HomeView: View {
                 VStack(spacing: 30) {
                     Image("RAMLogo")
                     
-                    SearchBar(text: $textSearchBar)
+                    SearchBar(viewModel: $viewModel, text: $textSearchBar, isPresented: $isPresented)
                         .onChange(of: textSearchBar) { _, newValue in
                             if !textSearchBar.isEmpty {
                                 viewModel.filterCharacters(
