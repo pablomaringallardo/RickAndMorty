@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3046ECE2C0F350100524EB4 /* SelectCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3046ECD2C0F350100524EB4 /* SelectCustom.swift */; };
 		A319591D2BE02B6000CCE131 /* RickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A319591C2BE02B6000CCE131 /* RickAndMortyApp.swift */; };
 		A31959212BE02B6100CCE131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31959202BE02B6100CCE131 /* Assets.xcassets */; };
 		A31959242BE02B6100CCE131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31959232BE02B6100CCE131 /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3046ECD2C0F350100524EB4 /* SelectCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCustom.swift; sourceTree = "<group>"; };
 		A31959192BE02B6000CCE131 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A319591C2BE02B6000CCE131 /* RickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyApp.swift; sourceTree = "<group>"; };
 		A31959202BE02B6100CCE131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				A335DDD82BFCB834004C6A1F /* SearchBar.swift */,
 				A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */,
 				A371AB852C0DE17100C4935E /* LoadMoreButton.swift */,
+				A3046ECD2C0F350100524EB4 /* SelectCustom.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			files = (
 				A319595B2BE02CED00CCE131 /* CharacterModel.swift in Sources */,
 				A31959502BE02C9E00CCE131 /* Networker.swift in Sources */,
+				A3046ECE2C0F350100524EB4 /* SelectCustom.swift in Sources */,
 				A335DDD92BFCB834004C6A1F /* SearchBar.swift in Sources */,
 				A31959532BE02CB800CCE131 /* HomeViewModel.swift in Sources */,
 				A346C1C32BE14CC600446F3F /* Episode.swift in Sources */,

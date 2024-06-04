@@ -13,4 +13,7 @@ enum HttpMethods: String {
     case get = "GET"
 }
 
-
+let species = ["Human", "Alien", "Robot", "Cronenberg"]
+let status = ["Alive", "Dead", "Unknown"]
+let gender = ["Male", "Female", "Genderless", "Unknown"]
+let type = ["Parasite", "Zigerion", "Disease", "Humanoid"]
