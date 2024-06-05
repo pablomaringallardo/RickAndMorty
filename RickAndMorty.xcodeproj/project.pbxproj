@@ -37,6 +37,9 @@
 		A3A826192C10E44700CD3249 /* FilterLocationSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826182C10E44700CD3249 /* FilterLocationSheetContentView.swift */; };
 		A3A8261B2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A8261A2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift */; };
 		A3A826222C10E56500CD3249 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826212C10E56500CD3249 /* TabBarView.swift */; };
+		A3A826242C10EB3300CD3249 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826232C10EB3300CD3249 /* RootView.swift */; };
+		A3A826282C10EC5200CD3249 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826272C10EC5200CD3249 /* LocationsView.swift */; };
+		A3A8262A2C10EC5B00CD3249 /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826292C10EC5B00CD3249 /* EpisodesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,9 @@
 		A3A826182C10E44700CD3249 /* FilterLocationSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterLocationSheetContentView.swift; sourceTree = "<group>"; };
 		A3A8261A2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterEpisodeSheetContentView.swift; sourceTree = "<group>"; };
 		A3A826212C10E56500CD3249 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A3A826232C10EB3300CD3249 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A3A826272C10EC5200CD3249 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		A3A826292C10EC5B00CD3249 /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,8 +208,10 @@
 			isa = PBXGroup;
 			children = (
 				A335DDD32BFCB2CE004C6A1F /* LaunchScreen */,
-				A3A826202C10E53600CD3249 /* Principal */,
+				A3A826202C10E53600CD3249 /* Root */,
 				A346C1C52BE15C3800446F3F /* Home */,
+				A3A826252C10EC2900CD3249 /* Locations */,
+				A3A826262C10EC3D00CD3249 /* Episodes */,
 				A3A8261C2C10E47100CD3249 /* Detail */,
 				A3A826152C10D8CF00CD3249 /* Filter */,
 				A346C1C42BE15C2F00446F3F /* Components */,
@@ -334,11 +342,28 @@
 			path = Location;
 			sourceTree = "<group>";
 		};
-		A3A826202C10E53600CD3249 /* Principal */ = {
+		A3A826202C10E53600CD3249 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				A3A826232C10EB3300CD3249 /* RootView.swift */,
 			);
-			path = Principal;
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A3A826252C10EC2900CD3249 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				A3A826272C10EC5200CD3249 /* LocationsView.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		A3A826262C10EC3D00CD3249 /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				A3A826292C10EC5B00CD3249 /* EpisodesView.swift */,
+			);
+			path = Episodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +515,9 @@
 				A319594E2BE02C9300CCE131 /* NetworkManager.swift in Sources */,
 				A3A8261B2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift in Sources */,
 				A3A826192C10E44700CD3249 /* FilterLocationSheetContentView.swift in Sources */,
+				A3A826282C10EC5200CD3249 /* LocationsView.swift in Sources */,
+				A3A826242C10EB3300CD3249 /* RootView.swift in Sources */,
+				A3A8262A2C10EC5B00CD3249 /* EpisodesView.swift in Sources */,
 				A335DDDB2BFCBFC3004C6A1F /* CustomCell.swift in Sources */,
 				A335DDC62BFCA906004C6A1F /* Color.swift in Sources */,
 				A335DDC82BFCAA72004C6A1F /* Font.swift in Sources */,
