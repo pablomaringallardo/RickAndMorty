@@ -19,9 +19,10 @@ struct HomeView: View {
             
             ScrollView {
                 VStack(spacing: 30) {
+                    
                     Image("RAMLogo")
                     
-                    SearchBar(viewModel: $viewModel, text: $textSearchBar, isPresented: $isPresented)
+                    SearchBar(text: $textSearchBar, isPresented: $isPresented)
                         .onChange(of: textSearchBar) { _, newValue in
                             if !textSearchBar.isEmpty {
                                 viewModel.filterCharacters(
@@ -34,6 +35,9 @@ struct HomeView: View {
                                 viewModel.getAllCharacter()
                             }
                         }
+                        .sheet(isPresented: $isPresented, content: {
+                            FilterCharacterSheetContentView(viewModel: $viewModel, isPresented: $isPresented)
+                        })
                     
                     HStack {
                         Text("Characters")

@@ -31,9 +31,12 @@
 		A335DDDB2BFCBFC3004C6A1F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */; };
 		A346C1C12BE14BC500446F3F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C02BE14BC500446F3F /* Location.swift */; };
 		A346C1C32BE14CC600446F3F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C22BE14CC600446F3F /* Episode.swift */; };
-		A346C1C82BE161F300446F3F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C1C72BE161F300446F3F /* DetailView.swift */; };
 		A346C1CB2BE164B500446F3F /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = A346C1CA2BE164B500446F3F /* CachedAsyncImage */; };
 		A371AB862C0DE17100C4935E /* LoadMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371AB852C0DE17100C4935E /* LoadMoreButton.swift */; };
+		A3A826172C10D8FD00CD3249 /* FilterCharacterSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826162C10D8FD00CD3249 /* FilterCharacterSheetContentView.swift */; };
+		A3A826192C10E44700CD3249 /* FilterLocationSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826182C10E44700CD3249 /* FilterLocationSheetContentView.swift */; };
+		A3A8261B2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A8261A2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift */; };
+		A3A826222C10E56500CD3249 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A826212C10E56500CD3249 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +85,11 @@
 		A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		A346C1C02BE14BC500446F3F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		A346C1C22BE14CC600446F3F /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
-		A346C1C72BE161F300446F3F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A371AB852C0DE17100C4935E /* LoadMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreButton.swift; sourceTree = "<group>"; };
+		A3A826162C10D8FD00CD3249 /* FilterCharacterSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCharacterSheetContentView.swift; sourceTree = "<group>"; };
+		A3A826182C10E44700CD3249 /* FilterLocationSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterLocationSheetContentView.swift; sourceTree = "<group>"; };
+		A3A8261A2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterEpisodeSheetContentView.swift; sourceTree = "<group>"; };
+		A3A826212C10E56500CD3249 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +202,10 @@
 			isa = PBXGroup;
 			children = (
 				A335DDD32BFCB2CE004C6A1F /* LaunchScreen */,
+				A3A826202C10E53600CD3249 /* Principal */,
 				A346C1C52BE15C3800446F3F /* Home */,
-				A346C1C62BE161E000446F3F /* Detail */,
+				A3A8261C2C10E47100CD3249 /* Detail */,
+				A3A826152C10D8CF00CD3249 /* Filter */,
 				A346C1C42BE15C2F00446F3F /* Components */,
 			);
 			path = UI;
@@ -271,6 +279,7 @@
 				A335DDDA2BFCBFC3004C6A1F /* CustomCell.swift */,
 				A371AB852C0DE17100C4935E /* LoadMoreButton.swift */,
 				A3046ECD2C0F350100524EB4 /* SelectCustom.swift */,
+				A3A826212C10E56500CD3249 /* TabBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,12 +293,52 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		A346C1C62BE161E000446F3F /* Detail */ = {
+		A3A826152C10D8CF00CD3249 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
-				A346C1C72BE161F300446F3F /* DetailView.swift */,
+				A3A826162C10D8FD00CD3249 /* FilterCharacterSheetContentView.swift */,
+				A3A826182C10E44700CD3249 /* FilterLocationSheetContentView.swift */,
+				A3A8261A2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		A3A8261C2C10E47100CD3249 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A3A8261D2C10E47900CD3249 /* Character */,
+				A3A8261F2C10E48500CD3249 /* Location */,
+				A3A8261E2C10E47F00CD3249 /* Episode */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		A3A8261D2C10E47900CD3249 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		A3A8261E2C10E47F00CD3249 /* Episode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Episode;
+			sourceTree = "<group>";
+		};
+		A3A8261F2C10E48500CD3249 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		A3A826202C10E53600CD3249 /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Principal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A826172C10D8FD00CD3249 /* FilterCharacterSheetContentView.swift in Sources */,
 				A319595B2BE02CED00CCE131 /* CharacterModel.swift in Sources */,
 				A31959502BE02C9E00CCE131 /* Networker.swift in Sources */,
 				A3046ECE2C0F350100524EB4 /* SelectCustom.swift in Sources */,
@@ -438,13 +488,15 @@
 				A31959532BE02CB800CCE131 /* HomeViewModel.swift in Sources */,
 				A346C1C32BE14CC600446F3F /* Episode.swift in Sources */,
 				A319594E2BE02C9300CCE131 /* NetworkManager.swift in Sources */,
+				A3A8261B2C10E45A00CD3249 /* FilterEpisodeSheetContentView.swift in Sources */,
+				A3A826192C10E44700CD3249 /* FilterLocationSheetContentView.swift in Sources */,
 				A335DDDB2BFCBFC3004C6A1F /* CustomCell.swift in Sources */,
 				A335DDC62BFCA906004C6A1F /* Color.swift in Sources */,
-				A346C1C82BE161F300446F3F /* DetailView.swift in Sources */,
 				A335DDC82BFCAA72004C6A1F /* Font.swift in Sources */,
 				A346C1C12BE14BC500446F3F /* Location.swift in Sources */,
 				A335DDD72BFCB315004C6A1F /* LaunchScreenView.swift in Sources */,
 				A31959552BE02CC200CCE131 /* HomeViewInteractor.swift in Sources */,
+				A3A826222C10E56500CD3249 /* TabBarView.swift in Sources */,
 				A319595D2BE02D3900CCE131 /* HomeView.swift in Sources */,
 				A319591D2BE02B6000CCE131 /* RickAndMortyApp.swift in Sources */,
 				A371AB862C0DE17100C4935E /* LoadMoreButton.swift in Sources */,
